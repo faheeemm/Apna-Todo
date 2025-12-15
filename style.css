@@ -122,6 +122,81 @@ section .task-column .task button {
     color: var(--primary-text-color);
 }
 
+
+@media (max-width: 768px) {
+
+    :root {
+        --nav-padding: 10px 15px;
+        --section-padding: 10px 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: var(--padding-m);
+        align-items: flex-start;
+    }
+
+    nav .right {
+        width: 100%;
+    }
+
+    nav button {
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        flex-direction: column;
+        gap: var(--padding-l);
+    }
+
+    section .task-column {
+        width: 100%;
+        scale: 1;
+    }
+
+    section .task-column.hover-over {
+        scale: 1.02;
+    }
+
+    .modal .center {
+        width: 90%;
+        padding: var(--padding-l);
+    }
+
+    .modal .center input,
+    .modal .center textarea {
+        width: 100%;
+    }
+
+    .modal .center textarea {
+        min-height: 100px;
+        resize: vertical;
+    }
+}
+
+@media (max-width: 480px) {
+
+    nav .left {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    section .task-column .heading {
+        font-size: 0.95rem;
+    }
+
+    section .task-column .task {
+        padding: var(--padding-s);
+    }
+
+    section .task-column .task button {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+}
+
+
 .modal {
     position: fixed;
     height: 100vh;
