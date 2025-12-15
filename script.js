@@ -126,6 +126,8 @@ addTaskBtn.addEventListener("click", () => {
 
     // for checking the no. of count | to check the no. of todos
     updateTaskCount();
-
     modal.classList.remove("active");
+
+    document.querySelector("#task-title-input").value = "";
+    document.querySelector("#task-description-input").value = "";
 });
