@@ -69,8 +69,6 @@ nav button {
     border-radius: var(--border-radius-m);
 }
 
-/* 14:00 from video */
-
 section {
     padding: var(--section-padding);
     display: flex;
