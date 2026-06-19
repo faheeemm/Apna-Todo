@@ -1,6 +1,21 @@
 # Apna Todo
 
-Apna Todo is a simple, user-friendly todo application to help you manage tasks quickly and efficiently. It’s designed to be lightweight and extensible — suitable as a learning project or a base for a full-featured productivity app.
+A lightweight task management application built with HTML, CSS, and JavaScript.
 
-Features
+## Features
+
 - Add, edit, and delete tasks
+- Local storage persistence
+- Responsive design
+
+## Tech Stack
+
+HTML5 • CSS3 • Vanilla JavaScript
+
+## Live Demo
+
+[apnatodo.faheem.foo](https://apnatodo.faheem.foo)
+
+---
+
+**Repository:** [github.com/faheeemm/Apna-Todo](https://github.com/faheeemm/Apna-Todo)
